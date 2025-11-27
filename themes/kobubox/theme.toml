@@ -1,0 +1,8 @@
+name = "KobuBox"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+min_version = "0.120.0"
+
+description = "Soft, cozy, squishmallow-inspired theme for KobuBox."
+[author]
+  name = "kobubox"

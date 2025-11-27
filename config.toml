@@ -1,0 +1,7 @@
+baseURL = "https://example.com/"
+title = "KobuBox"
+languageCode = "en-gb"
+theme = "kobubox"
+
+[params]
+  description = "A cozy, hackable, screen-lite storyteller for families."

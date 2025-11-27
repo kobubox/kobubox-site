@@ -1,0 +1,64 @@
+{{ define "main" }}
+<section class="kb-hero">
+    <div class="kb-hero-text">
+        <h1>KobuBox</h1>
+        <p class="kb-hero-sub">A cozy, hackable, screen-lite storyteller box for families — currently living in the
+            land of prototypes, napkin sketches, and late-night firmware experiments.</p>
+        <div class="kb-hero-cta">
+            <a href="#status" class="kb-btn kb-btn-primary">What exists today?</a>
+            <a href="/dream/" class="kb-btn kb-btn-ghost">Read the dream</a>
+        </div>
+    </div>
+    <div class="kb-hero-illo">
+        <div class="kb-kobu-box">
+            <div class="kb-kobu-face">
+                <span class="kb-kobu-eye"></span>
+                <span class="kb-kobu-eye"></span>
+                <span class="kb-kobu-smile"></span>
+            </div>
+            <div class="kb-kobu-card"></div>
+        </div>
+        <p class="kb-hero-caption">Vaporware, but with strong cozy energy.</p>
+    </div>
+</section>
+
+<section id="status" class="kb-section">
+    <h2>Where this is right now</h2>
+    <div class="kb-section-body">
+        <p>KobuBox is not a product you can buy. It’s an open hardware side project that’s still taking shape.</p>
+        <p>Today, it’s mostly:</p>
+        <ul>
+            <li>An ESP32 dev board on the bench</li>
+            <li>Early firmware experiments in Rust</li>
+            <li>A barcode/QR scanner and e-paper display being brought to life</li>
+            <li>First integrations with Home Assistant and Sonos</li>
+        </ul>
+        <p>If you like following along with early, slightly-chaotic projects, you’re in the right place.</p>
+    </div>
+</section>
+
+<section class="kb-section kb-section-alt">
+    <h2>What KobuBox wants to be</h2>
+    <div class="kb-section-body">
+        <p>The short version:</p>
+        <ul>
+            <li>A toy-like box kids can trust and understand</li>
+            <li>Printable cards instead of proprietary plastic figures</li>
+            <li>Local-first tech that plays nicely with the stuff you already own</li>
+        </ul>
+        <p>For the full, big-hearted version of the idea, head over to the dedicated dream page:</p>
+        <p><a href="/dream/" class="kb-btn kb-btn-ghost">Read the KobuBox dream</a></p>
+    </div>
+</section>
+
+<section id="follow" class="kb-section kb-section-follow">
+    <h2>Follow along</h2>
+    <p>This site will slowly grow with build logs, wiring diagrams, 3D prints. For now, there's just a github org
+        waiting for code to drop.
+    </p>
+    <ul>
+        <li><strong>GitHub Org</strong><a href="https://github.com/kobubox">https://github.com/kobubox</a></li>
+        <li><strong>Say hello</strong><a href="mailto:hello@kobubox.com">hello@kobubox.com</a></li>
+    </ul>
+</section>
+{{ end }}
